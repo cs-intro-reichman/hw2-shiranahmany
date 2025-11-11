@@ -19,7 +19,7 @@ public class Cheers {
                 if (options.indexOf(curr) != -1) {
                         System.out.println(give + "an " + curr + ": " + curr + "!");
                 } else {
-                        System.out.println(give + "a " + curr + ": " + curr + "!");
+                        System.out.println(give + "a  " + curr + ": " + curr + "!");
                 }
             }
             System.out.println("What does that spell?");
