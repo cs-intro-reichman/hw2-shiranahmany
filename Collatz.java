@@ -5,7 +5,7 @@ public class Collatz {
 		String mode = args[1];
 		String steps = "";
 		int curr = 0;
-		int count = 0;
+		int count = 1;
 
 		for(int i = 1; i <= seed; i++){
 			curr = i;
@@ -25,7 +25,7 @@ public class Collatz {
 				System.out.println(steps);
 			}
 			steps = "";
-			count = 0;
+			count = 1;
 		}
 		System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 	
