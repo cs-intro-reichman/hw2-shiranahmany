@@ -22,7 +22,7 @@ public class Collatz {
 			steps += "1 (" + count + ")";
 
 			if("v".equals(mode)){
-				System.err.println(steps);
+				System.out.println(steps);
 			}
 			steps = "";
 			count = 0;
